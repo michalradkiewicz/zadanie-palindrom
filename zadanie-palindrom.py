@@ -3,3 +3,6 @@ def is_palindromy(palindrom):
             return(True)
     else:
           return(False)
+palindrom_list = ['kajak', 'jaka', 'arka', 'potop', 'kokot']
+for name in palindrom_list:
+     print(is_palindromy(name))
